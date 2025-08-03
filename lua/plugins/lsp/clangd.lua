@@ -1,12 +1,17 @@
--- ~/.config/nvim/lua/plugins/lsp/clangd.lua
-
 return {
-    setup = {
-        clangd = function(_, opts)
-            -- Customize opts here
-            opts.cmd = { "clangd", "--header-insertion=never" }
-            require("lspconfig").clangd.setup(opts)
-            return true
-        end,
+    {
+        "neovim/nvim-lspconfig",
+        opts = {
+            servers = {
+                clangd = {
+                    cmd = {
+                        "clangd",
+                        "--pch-storage=memory",
+                        "--header-insertion=never",
+                        "--index-store-path=/tmp/clangd-index",
+                    },
+                },
+            },
+        },
     },
 }

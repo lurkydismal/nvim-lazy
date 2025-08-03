@@ -2,10 +2,6 @@ return {
     "folke/tokyonight.nvim",
     opts = {
         on_highlights = function(hl, colors)
-            hl.LspInlayHint = {
-                fg = "#545c7e",
-                bg = "#24283c",
-            }
             hl.LineNrAbove = {
                 fg = "#ffffff",
             }
