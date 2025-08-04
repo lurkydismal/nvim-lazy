@@ -1,6 +1,8 @@
 bash-language-server
+clang-format
 clangd
 lua-language-server
+marksman
 shellcheck
 shfmt
 stylua
