@@ -72,9 +72,9 @@ return {
             end
         end
 
-        -- Override keybinding only for C/C++
+        -- Override keybinding only for C/ C++, Bash
         vim.api.nvim_create_autocmd("FileType", {
-            pattern = { "c", "cpp" },
+            pattern = { "c", "cpp", "sh" },
             callback = function()
                 vim.keymap.set("v", "gs", toggle_scope, { buffer = true, desc = "Toggle {} scope" })
             end,
