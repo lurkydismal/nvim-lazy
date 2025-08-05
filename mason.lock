@@ -1,6 +1,7 @@
 asm-lsp
 asmfmt
 bash-language-server
+biome
 clang-format
 clangd
 lua-language-server
