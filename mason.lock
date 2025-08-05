@@ -1,3 +1,5 @@
+asm-lsp
+asmfmt
 bash-language-server
 clang-format
 clangd
