@@ -2,6 +2,7 @@
   "extras": [
     "lazyvim.plugins.extras.coding.neogen",
     "lazyvim.plugins.extras.coding.yanky",
+    "lazyvim.plugins.extras.editor.inc-rename",
     "lazyvim.plugins.extras.lang.clangd"
   ],
   "install_version": 8,
