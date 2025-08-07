@@ -1,9 +1,11 @@
+actionlint
 asm-lsp
 asmfmt
 bash-language-server
 biome
 clang-format
 clangd
+gh-actions-language-server
 lua-language-server
 marksman
 shellcheck
