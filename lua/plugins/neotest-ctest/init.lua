@@ -1,3 +1,7 @@
+if true then
+    return {}
+end
+
 local lib = require("neotest.lib")
 
 return {
