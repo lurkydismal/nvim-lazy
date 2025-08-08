@@ -1,13 +1,16 @@
 actionlint
 asm-lsp
 asmfmt
+ast-grep
 bash-language-server
 biome
 clang-format
 clangd
+codelldb
 gh-actions-language-server
 lua-language-server
 marksman
+pinact
 shellcheck
 shfmt
 stylua
