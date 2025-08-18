@@ -8,10 +8,11 @@ clang-format
 clangd
 codelldb
 gh-actions-language-server
+glsl_analyzer
 lua-language-server lua_ls
+markdown-toc
 markdownlint-cli2
 marksman
-pinact
 shellcheck
 shfmt
 stylua
