@@ -2,6 +2,8 @@ actionlint
 asm-lsp asm_lsp
 asmfmt
 ast-grep ast_grep
+bacon
+bacon-ls
 bash-language-server bashls
 biome
 clang-format
