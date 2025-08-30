@@ -174,8 +174,8 @@ return {
         vim.api.nvim_create_autocmd("FileType", {
             pattern = { "c", "cpp" },
             callback = function()
-                vim.keymap.set("v", "gs", add_comment, { buffer = true, desc = "Add #if 0 #endif scone" })
-                vim.keymap.set("n", "gs", remove_comment, { buffer = true, desc = "Remove #if 0 #endif scone" })
+                vim.keymap.set("v", "gc", add_comment, { buffer = true, desc = "Add #if 0 #endif scone" })
+                vim.keymap.set("n", "gc", remove_comment, { buffer = true, desc = "Remove #if 0 #endif scone" })
             end,
         })
     end,
