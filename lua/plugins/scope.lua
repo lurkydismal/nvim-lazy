@@ -1,5 +1,3 @@
-local ts_utils = require("nvim-treesitter.ts_utils")
-
 local function trim(s)
     return s:match("^%s*(.-)%s*$")
 end
