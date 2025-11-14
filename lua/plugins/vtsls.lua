@@ -1,0 +1,16 @@
+return {}
+-- return {
+--     {
+--         "neovim/nvim-lspconfig",
+--         opts = {
+--             settings = {
+--                 typescript = {
+--                     format = { enable = false },
+--                 },
+--                 javascript = {
+--                     format = { enable = false },
+--                 },
+--             },
+--         },
+--     },
+-- }
